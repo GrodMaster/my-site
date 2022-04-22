@@ -1,0 +1,203 @@
+body{
+   
+   margin: 0;
+   padding: 0;
+   
+}
+
+
+
+.main{
+   background-color: #0B1D26;
+   color: #fff;
+}
+
+.preview {
+   position: relative;
+   height: 100vh;
+   width: 100vw;
+}
+
+.previewLayer{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left:0;
+   right: 0;
+
+
+}
+
+.previewImg{
+   background-image: url(img/Group20.png);
+   background-size: cover;
+   z-index: 1;
+   align-items: center;
+}
+header{
+   z-index: 2;
+   display: flex;
+   justify-content: space-between;
+   padding: 64px 80px;
+   height: 25px;
+}
+nav{
+   display: flex;
+}
+.navItem:not(:last-child){
+   margin-right: 40px;
+}
+
+.accountWrapper{
+   display: flex;
+   align-items: center;
+   
+}
+.account{
+   padding-left: 10px;
+}
+
+.titeltWrapper{
+   z-index: 3;
+   top: 25%;
+   left: 20%;
+   
+   
+}
+
+.title{
+   display: flex;
+   color: #FBD784;
+   align-items: center;
+}
+
+.line{
+   width: 72px;
+   height: 2px;
+   background-color: #FBD784;
+   margin-right: 32px;
+}
+
+.titleText{
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+.titleDescription{
+   font-size: 88px;
+   text-transform: capitalize;
+   font-weight: 600;
+   padding-top: 32px;
+}
+
+.content{
+   padding: 100px 150px;
+   
+}
+.section{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 100px;
+   align-items: center;
+}
+
+.section:not(:last-child){
+   margin-bottom: 200px;
+}
+
+.sectionInfo{
+   position: relative;
+   max-width: 632px;
+   margin-left: 100px;
+   
+}
+.count{
+   position: absolute;
+   font-size: 240px;
+   font-weight: 700;
+   opacity: 0.1;
+   margin-left: -100px;
+   margin-top: -141px;
+}
+
+.sectionHeader{
+   align-items: center;
+   display: flex;
+}
+
+.sectionTitle{
+   color: #FBD784;
+   font-size: 18px;
+   padding-left: 24px;
+   text-transform: uppercase;
+}
+
+.infoTitle{
+   padding-top: 27px;
+   font-size: 64px;
+   font-weight: 600;
+}
+
+.sectionText{
+   font-size: 18px;
+   font-weight: 700;
+   padding-top: 27px;
+}
+
+.sectionImg1{
+   grid-column-start:2 ;
+   grid-column-end: 3 ;
+   grid-row-start:1;
+   grid-row-end:2;
+}
+
+.sectionImg2 {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 120px 150px;
+}
+
+.footerText{
+   
+   max-width: 303px;
+   font-size: 18px;
+   margin-top: 24px;
+   font-weight: 700;
+}
+
+.footerInfo{
+   padding-top: 120px;
+   opacity: 0.5;
+   font-weight: 500;
+}
+
+.rightsite{
+   display: flex;
+}
+
+.navTitel{
+   font-size: 24px;
+   font-weight: 700;
+   color: #FBD784;
+   padding-bottom: 24px;
+}
+
+.bottomNavItem{
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.bottomNavItem:not(:last-child){
+   padding-bottom: 16px;
+}
+
+.bottomNav:not(:last-child){
+   margin-right: 212px;
+}
